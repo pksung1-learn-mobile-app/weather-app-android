@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="rounded_corner">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="text10">
+        <item name="android:textSize">10sp</item>
+        <item name="fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="text12">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="text14">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="text16">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="text20">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="text22">
+        <item name="android:textSize">22sp</item>
+        <item name="fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="text24">
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
