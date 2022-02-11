@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <!-- PRIMARY -->
+    <color name="primary1">#6151C3</color>
+    <color name="primary2">#8174CF</color>
+    <color name="primary3">#A097DB</color>
+    <color name="primary4">#C0B9E7</color>
+    <color name="primary5">#DFDCF3</color>
+    <color name="primary6">#EFEEF9</color>
+    <color name="primary7">#F7F6FC</color>
+
+    <color name="secondary1">#080713</color>
+    <color name="secondary2">#393942</color>
+    <color name="secondary3">#6B6A71</color>
+    <color name="secondary4">#9C9CA1</color>
+    <color name="secondary5">#CECDD0</color>
+    <color name="secondary6">#E6E6E7</color>
+    <color name="secondary7">#F3F3F3</color>
+
+
+</resources>
