@@ -15,4 +15,9 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
+    <style name="Theme.AppCompat.Dialog.Alert" parent="@android:style/Theme.Dialog">
+        <item name="backgroundColor">@color/secondary1</item>
+        <item name="colorBackgroundFloating">@color/secondary1</item>
+    </style>
 </resources>

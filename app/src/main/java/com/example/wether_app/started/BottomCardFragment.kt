@@ -17,10 +17,11 @@ import kotlin.properties.Delegates
 
 class BottomCardFragment : Fragment() {
 
+
     companion object {
         fun newInstance(position: Int): BottomCardFragment {
-            Log.d("BottomCardFragment", position.toString())
             val fragment: BottomCardFragment = BottomCardFragment().apply {
+//                this.viewModel.position.value = position
                 arguments = Bundle().apply {
                     putInt("position", position)
                 }
@@ -42,7 +43,6 @@ class BottomCardFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        Log.d("BottomCardFragment", receiveData?.toString())
         binding = DataBindingUtil.inflate(inflater, R.layout.bottom_card_fragment,container, false )
         binding.startButton.setOnClickListener { view ->
             view.findNavController()?.navigate(R.id.action_started_to_mainFragment)

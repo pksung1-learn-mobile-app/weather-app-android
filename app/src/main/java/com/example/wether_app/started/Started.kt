@@ -35,8 +35,6 @@ class Started : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-
-
         viewModel = ViewModelProvider(this).get(StartedViewModel::class.java)
         binding.cardViewPager.adapter = ScreenSlidePagerAdapter(this)
         // TODO: Use the ViewModel

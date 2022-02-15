@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">wether-app</string>
+    <string name="permission_positive">확인</string>
 </resources>
